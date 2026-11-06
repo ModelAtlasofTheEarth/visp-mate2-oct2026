@@ -1,1 +1,669 @@
-{"@context": ["https://www.researchobject.org/ro-crate/1.1/context.jsonld", "https://raw.githubusercontent.com/codemeta/codemeta/master/codemeta.jsonld"], "@graph": [{"@id": "_:b0", "@type": "Person", "familyName": "Blum", "givenName": "Mike"}, {"@id": "_:b1", "@type": "Person", "familyName": "Frederick", "givenName": "Bruce C."}, {"@id": "_:b10", "@type": "Person", "familyName": "Howson", "givenName": "Ian"}, {"@id": "_:b11", "@type": "PropertyValue", "propertyID": "URL", "value": "https://zenodo.org/record/1069573"}, {"@id": "_:b12", "@type": "Person", "familyName": "Mirko Velic"}, {"@id": "_:b13", "@type": "PropertyValue", "propertyID": "oai", "value": "oai:zenodo.org:15128361"}, {"@id": "_:b2", "@type": "Person", "familyName": "Blum", "givenName": "Mike"}, {"@id": "_:b3", "@type": "Person", "familyName": "Frederick", "givenName": "Bruce C."}, {"@id": "_:b4", "@type": "Organization", "name": "AuScope"}, {"@id": "_:b5", "@type": "Organization", "name": "Sesame street"}, {"@id": "_:b6", "@type": "Person", "familyName": "Blum", "givenName": "Mike"}, {"@id": "_:b7", "@type": "Person", "familyName": "Frederick", "givenName": "Bruce C."}, {"@id": "_:b8", "@type": "Person", "familyName": "Blum", "givenName": "Mike"}, {"@id": "_:b9", "@type": "Person", "familyName": "Frederick", "givenName": "Bruce C."}, {"@id": "./", "@type": "Dataset", "about": {"@id": "https://linked.data.gov.au/def/anzsrc-for/2020/370401"}, "abstract": "The interplay between climate-forced sea level change, erosional and depositional processes, and flexural isostasy in deep time on passive margin deltas remains poorly understood. We performed a series of conceptual simulations to investigate flexural isostatic responses to high-frequency fluctuations in water and sediment load associated with climatically driven sea level changes. We model a large drainage basin that discharges to a continental margin and produces a large deltaic depocenter, then prescribe synthetic and climatic-driven sea level curves of different frequencies to assess flexural response. Results show that flexural isostatic responses are bidirectional over 100\u20131000 kyr timescales and are in sync with the magnitude, frequency, and direction of sea level fluctuations and that isostatic adjustments play an important role in driving along-strike and cross-shelf river mouth migration and sediment accumulation. Our findings demonstrate that climate-forced sea level changes produce a feedback mechanism that results in self-sustaining creation of accommodation into which sediment is deposited and plays a major role in delta morphology and stratigraphic architecture.", "creativeWorkStatus": "completed", "creator": [{"@id": "https://orcid.org/0000-0002-1270-4377"}, {"@id": "_:b0"}, {"@id": "https://orcid.org/0000-0001-6095-7689"}, {"@id": "_:b1"}, {"@id": "https://orcid.org/0000-0002-2594-6965"}, {"@id": "https://orcid.org/0000-0003-3693-932X"}, {"@id": "https://orcid.org/0000-0003-3566-1557"}, {"@id": "https://orcid.org/0000-0003-2595-2414"}, {"@id": "https://orcid.org/0000-0003-3685-174X"}], "isBasedOn": [], "spatialCoverage": "", "temporalCoverage": "", "alternateName": "visp-mate2-oct2026", "citation": {"@id": "https://doi.org/10.5194/esurf-12-301-2024"}, "contributor": [""], "creditText": "", "datePublished": "2026-11-06T00:55:42.000Z", "description": "This is a dummy submission to test every fields and how it interacts with the new M@TE 2 system", "funder": [{"@id": "_:b4"}, {"@id": "_:b5"}], "funding": [], "hasPart": [{"@id": "model_code_inputs"}, {"@id": "model_output_data"}, {"@id": "website_material"}, {"@id": "metadata_trail"}, {"@id": "#datasetCreation"}, {"@id": "landing_image"}, {"@id": "graphic_abstract"}, {"@id": "model_setup_figure"}], "identifier": [], "isPartOf": "http://dx.doi.org/10.25914/yrzp-g882", "keywords": ["FEM", "Mantle convection", "Badlands", "Python", "Underworld"], "license": "https://creativecommons.org/licenses/by/4.0/legalcode", "name": "Flexural isostatic response of continental-scale deltas to climatically driven sea level changes", "publisher": [{"@id": "https://ror.org/04s1m4564"}, {"@id": "https://ror.org/04yx6dh41"}], "url": ["https://mate.science/models/visp-mate2-oct2026/", "https://github.com/ModelAtlasofTheEarth/visp-mate2-oct2026/"], "version": ""}, {"@id": "#datasetCreation", "@type": "CreateAction", "agent": [{"@id": "https://orcid.org/0000-0002-1270-4377"}, {"@id": "_:b8"}, {"@id": "https://orcid.org/0000-0001-6095-7689"}, {"@id": "_:b9"}, {"@id": "https://orcid.org/0000-0002-2594-6965"}, {"@id": "https://orcid.org/0000-0003-3693-932X"}, {"@id": "https://orcid.org/0000-0003-3566-1557"}, {"@id": "https://orcid.org/0000-0003-2595-2414"}, {"@id": "https://orcid.org/0000-0003-3685-174X"}], "endTime": "", "instrument": [{"@id": "https://doi.org/10.5281/zenodo.1069573"}, {"@id": "https://doi.org/10.5281/zenodo.15128361"}], "object": {"@id": "model_code_inputs"}, "result": {"@id": "model_output_data"}, "startTime": "", "description": "Running the computational model"}, {"@id": ".metadata_trail", "@type": "Dataset", "hasPart": [{"@id": "metadata_trail/issue_body.md"}, {"@id": "metadata_trail/issue_dict.json"}, {"@id": "metadata_trail/nci_iso.csv"}, {"@id": "metadata_trail/ro-crate-metadata-nested.json"}], "name": ".metadata_trail"}, {"@id": ".website_material", "@type": ["Dataset", "CreativeWork"], "creator": "", "fileFormat": "", "description": "material for m@te website", "name": ".website_material"}, {"@id": "0000-0001-5865-1664", "@type": "Person", "familyName": "John Mansour"}, {"@id": "0000-0001-6303-5671", "@type": "Person", "familyName": "Owen Kaluza"}, {"@id": "0000-0001-7779-509X", "@type": "Person", "familyName": "Luke Mondy"}, {"@id": "0000-0001-7919-2575", "@type": "Person", "familyName": "Ben Knight"}, {"@id": "0000-0001-9424-2315", "@type": "Person", "familyName": "Neng Lu"}, {"@id": "0000-0002-0368-7341", "@type": "Person", "familyName": "Steve Quenette"}, {"@id": "0000-0002-1270-4377", "@type": "Person", "familyName": "Sara Mor\u00f3n"}, {"@id": "0000-0002-1767-8593", "@type": "Person", "familyName": "Patrice Rey"}, {"@id": "0000-0002-2207-6837", "@type": "Person", "familyName": "Dan Sandiford"}, {"@id": "0000-0002-2594-6965", "@type": "Person", "familyName": "Rebecca Farrington"}, {"@id": "0000-0002-3484-7985", "@type": "Person", "familyName": "Arijit Laik"}, {"@id": "0000-0002-7182-1864", "@type": "Person", "familyName": "Adam Beall"}, {"@id": "0000-0002-9512-7252", "@type": "Person", "familyName": "Guillaume Duclaux"}, {"@id": "0000-0003-2595-2414", "@type": "Person", "familyName": "Claire Mallard"}, {"@id": "0000-0003-3685-174X", "@type": "Person", "familyName": "Louis Moresi"}, {"@id": "0000-0003-3891-5444", "@type": "Person", "familyName": "Romain Beucher"}, {"@id": "0000-0003-4515-9296", "@type": "Person", "familyName": "Julian Giordani"}, {"@id": "graphic_abstract", "@type": "ImageObject", "path": "https://raw.githubusercontent.com/ModelAtlasofTheEarth/visp-mate2-oct2026/main/.website_material/graphics/graphic_abstract.pdf", "description": "Output of numerical simulations with imposed synthetic sea-level curves with different frequencies (f) showing elevation, bathymetry and discharge of the river mouth at 8 Myr. Note the difference in lateral extent, elevation due to flexural rebound, and river mouth morphology between the flexural (top) and non-flexural (bottom) cases. (b) Change of river mouth location though time for simulations where synthetic and empirical sea-level curves were imposed. Mean river mouth transit distances in the non-flexurally compensated simulations are shown in lighter shades, whereas the flexurally compensated cases are shown in darker shades. (c) Bar plot showing the frequency of the number of times where the de-trended river-mouth trajectory crosses an arbitrary point in the shelf an indicator of how often the river mouth is close to the shelf break. NF = non-flexural, F = flexural, IH = icehouse, and GH = greenhouse.", "encodingFormat": "application/pdf", "name": "Graphic abstract"}, {"@id": "landing_image", "@type": "ImageObject", "path": "https://raw.githubusercontent.com/ModelAtlasofTheEarth/visp-mate2-oct2026/main/.website_material/graphics/landing_image.png", "description": "Our simulations produce catchment areas, river lengths, and volumes of deposited sediment that are consistent with the ranges observed in continental-scale deltas such as the Mississippi and Amazon rivers. (a) Example showing the outputs from the numerical simulation showing the elevation and bathymetry (top) and cumulative flexure (bottom). Model dimensions are 4500 km x 2000 km, with a vertical exaggeration of 100x. (b) Scatter plot of river length (top) and 405 shelf width (bottom) versus catchment area from river systems. Data is from Somme et al. (2009), Nyberg et al. (2018), Blum et al. (2013, 2017) and simulations presented in this study. Pal= Paleocene, Oli=Oligocene, PM= Paleo-Mississippi. (c) Example of synthetic stratigraphy from a simulation without (left) and with flexural compensation (right).", "encodingFormat": "image/png", "name": "Landing page image"}, {"@id": "metadata_trail/issue_body.md", "@type": "CreativeWork", "description": "Markdown document showing the original github issue body associated with the model submission.", "encodingFormat": "text/markdown", "name": "Issue Body"}, {"@id": "metadata_trail/issue_dict.json", "@type": "CreativeWork", "description": "json file representing the dictionary that is constructured by model_submission/.github/scripts/parse_issue.py", "encodingFormat": "application/json", "name": "Issue Dictionary"}, {"@id": "metadata_trail/nci_iso.csv", "@type": "CreativeWork", "description": "Simple crosswalk of metadata into ISO 19115 format/schema compatible with NCI GeoNwtework", "encodingFormat": "text/csv", "name": "NCI ISO Crosswalk"}, {"@id": "metadata_trail/ro-crate-metadata-nested.json", "@type": "CreativeWork", "description": "Nested version of RO-Crate, hasn't been flattenened.", "encodingFormat": "application/json", "name": "Nested version of RO-Crate"}, {"@id": "model_code_inputs", "@type": ["Dataset", "SoftwareSourceCode"], "contentSize": "", "creator": "", "description": "Code and inputs for computational model", "identifier": [], "keywords": "", "memoryRequirements": "", "processorRequirements": "", "programmingLanguage": "", "runtimePlatform": "", "storageRequirements": "", "url": ["https://thredds.nci.org.au/thredds/catalog/nm08/MATE/visp-mate2-oct2026/catalog.html", "https://github.com/ModelAtlasofTheEarth/polanco-2024-deltas"], "version": ""}, {"@id": "model_output_data", "@type": "Dataset", "contentSize": 137438953472, "creator": [{"@id": "https://orcid.org/0000-0002-1270-4377"}, {"@id": "_:b6"}, {"@id": "https://orcid.org/0000-0001-6095-7689"}, {"@id": "_:b7"}, {"@id": "https://orcid.org/0000-0002-2594-6965"}, {"@id": "https://orcid.org/0000-0003-3693-932X"}, {"@id": "https://orcid.org/0000-0003-3566-1557"}, {"@id": "https://orcid.org/0000-0003-2595-2414"}, {"@id": "https://orcid.org/0000-0003-3685-174X"}], "fileFormat": "", "description": "The model output data is stored in a hdf5 format. You will see a h5 folder and a series of xdmf files.\n\nh5 folder contains the hdf5 data, all the information computed by the model are stored in these files. You will have at least the tin (surface) and flow (stream network) dataset and also the sed (stratigraphy) data if the stratal structure is computed in your simulation.\n\ntwo .xdmf files for the surface (tin_series.xdmf) and the flow network (flow_series.xdmf) that read the xmf files through time.", "identifier": "", "url": "https://thredds.nci.org.au/thredds/catalog/nm08/MATE/visp-mate2-oct2026/catalog.html"}, {"@id": "model_setup_figure", "@type": "ImageObject", "path": "https://raw.githubusercontent.com/ModelAtlasofTheEarth/visp-mate2-oct2026/main/.website_material/graphics/model_setup_figure.png", "description": "", "encodingFormat": "image/png", "name": "Model setup figure"}, {"@id": "ro-crate-metadata.json", "@type": "CreativeWork", "conformsTo": {"@id": "https://w3id.org/ro/crate/1.1"}, "about": {"@id": "./"}, "description": "RO-Crate Metadata File Descriptor (this file)"}, {"@id": "https://creativecommons.org/licenses/by/4.0/legalcode", "@type": "CreativeWork", "description": "Creative Commons Attribution 4.0 International", "name": "CC-BY-4.0", "url": " https://creativecommons.org/licenses/by/4.0/legalcode.txt"}, {"@id": "https://doi.org/10.5194/esurf-12-301-2024", "@type": "ScholarlyArticle", "abstract": "Abstract. The interplay between climate-forced sea level change, erosional and depositional processes, and flexural isostasy in deep time on passive margin deltas remains poorly understood. We performed a series of conceptual simulations to investigate flexural isostatic responses to high-frequency fluctuations in water and sediment load associated with climatically driven sea level changes. We model a large drainage basin that discharges to a continental margin and produces a large deltaic depocenter, then prescribe synthetic and climatic-driven sea level curves of different frequencies to assess flexural response. Results show that flexural isostatic responses are bidirectional over 100\u20131000\u2009kyr timescales and are in sync with the magnitude, frequency, and direction of sea\u00a0level fluctuations and that isostatic adjustments play an important role in driving along-strike and cross-shelf river mouth migration and sediment accumulation. Our findings demonstrate that climate-forced sea level changes produce a feedback mechanism that results in self-sustaining creation of accommodation into which sediment is deposited and plays a major role in delta morphology and stratigraphic architecture.", "author": [{"@id": "https://orcid.org/0000-0002-1270-4377"}, {"@id": "_:b2"}, {"@id": "https://orcid.org/0000-0001-6095-7689"}, {"@id": "_:b3"}, {"@id": "https://orcid.org/0000-0002-2594-6965"}, {"@id": "https://orcid.org/0000-0003-3693-932X"}, {"@id": "https://orcid.org/0000-0003-3566-1557"}, {"@id": "https://orcid.org/0000-0003-2595-2414"}, {"@id": "https://orcid.org/0000-0003-3685-174X"}], "name": "Flexural isostatic response of continental-scale deltas to climatically driven sea level changes"}, {"@id": "https://doi.org/10.5281/zenodo.1069573", "@type": "SoftwareSourceCode", "author": [{"@id": "https://orcid.org/0000-0001-6095-7689"}, {"@id": "_:b10"}], "identifier": {"@id": "_:b11"}, "license": "info:eu-repo/semantics/openAccess", "name": "badlands-model/pyBadlands: stable release version 2.0.0", "url": "https://zenodo.org/record/1069573"}, {"@id": "https://doi.org/10.5281/zenodo.15128361", "@type": "SoftwareSourceCode", "author": [{"@id": "0000-0003-3891-5444"}, {"@id": "0000-0003-4515-9296"}, {"@id": "0000-0003-3685-174X"}, {"@id": "0000-0001-5865-1664"}, {"@id": "0000-0001-6303-5671"}, {"@id": "_:b12"}, {"@id": "0000-0002-2594-6965"}, {"@id": "0000-0002-0368-7341"}, {"@id": "0000-0002-7182-1864"}, {"@id": "0000-0002-2207-6837"}, {"@id": "0000-0001-7779-509X"}, {"@id": "0000-0003-2595-2414"}, {"@id": "0000-0002-1767-8593"}, {"@id": "0000-0002-9512-7252"}, {"@id": "0000-0002-3484-7985"}, {"@id": "0000-0002-1270-4377"}, {"@id": "0000-0002-7182-1864"}, {"@id": "0000-0001-7919-2575"}, {"@id": "0000-0001-9424-2315"}], "identifier": {"@id": "_:b13"}, "license": "https://www.gnu.org/licenses/lgpl-3.0-standalone.html", "name": "Underworld2: Python Geodynamics Modelling for Desktop, HPC and Cloud", "url": "https://zenodo.org/doi/10.5281/zenodo.15128361"}, {"@id": "https://linked.data.gov.au/def/anzsrc-for/2020/370401", "@type": "DefinedTerm", "termCode": "370401", "name": "Computational modelling and simulation in earth sciences"}, {"@id": "https://orcid.org/0000-0001-6095-7689", "@type": "Person", "familyName": "Salles", "givenName": "Tristan"}, {"@id": "https://orcid.org/0000-0002-1270-4377", "@type": "Person", "familyName": "Polanco", "givenName": "Sara"}, {"@id": "https://orcid.org/0000-0002-2594-6965", "@type": "Person", "familyName": "Farrington", "givenName": "Rebecca"}, {"@id": "https://orcid.org/0000-0003-2595-2414", "@type": "Person", "familyName": "Mallard", "givenName": "Claire"}, {"@id": "https://orcid.org/0000-0003-3566-1557", "@type": "Person", "familyName": "Mather", "givenName": "Ben"}, {"@id": "https://orcid.org/0000-0003-3685-174X", "@type": "Person", "familyName": "Moresi", "givenName": "Louis"}, {"@id": "https://orcid.org/0000-0003-3693-932X", "@type": "Person", "familyName": "Ding", "givenName": "Xuesong"}, {"@id": "https://ror.org/04s1m4564", "@type": "Organization", "name": "AuScope"}, {"@id": "https://ror.org/04yx6dh41", "@type": "Organization", "name": "National Computational Infrastructure"}]}
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2026-11-06T00:55:42.000Z",
+            "about": {
+                "@id": "https://linked.data.gov.au/def/anzsrc-for/2020/370401"
+            },
+            "abstract": "The interplay between climate-forced sea level change, erosional and depositional processes, and flexural isostasy in deep time on passive margin deltas remains poorly understood. We performed a series of conceptual simulations to investigate flexural isostatic responses to high-frequency fluctuations in water and sediment load associated with climatically driven sea level changes. We model a large drainage basin that discharges to a continental margin and produces a large deltaic depocenter, then prescribe synthetic and climatic-driven sea level curves of different frequencies to assess flexural response. Results show that flexural isostatic responses are bidirectional over 100\u20131000 kyr timescales and are in sync with the magnitude, frequency, and direction of sea level fluctuations and that isostatic adjustments play an important role in driving along-strike and cross-shelf river mouth migration and sediment accumulation. Our findings demonstrate that climate-forced sea level changes produce a feedback mechanism that results in self-sustaining creation of accommodation into which sediment is deposited and plays a major role in delta morphology and stratigraphic architecture.",
+            "creativeWorkStatus": "completed",
+            "creator": [
+                {
+                    "@id": "https://orcid.org/0000-0002-1270-4377"
+                },
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0001-6095-7689"
+                },
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-2594-6965"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3693-932X"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3566-1557"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-2595-2414"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3685-174X"
+                }
+            ],
+            "isBasedOn": [],
+            "spatialCoverage": "",
+            "temporalCoverage": "",
+            "alternateName": "visp-mate2-oct2026",
+            "citation": {
+                "@id": "https://doi.org/10.5194/esurf-12-301-2024"
+            },
+            "contributor": [
+                ""
+            ],
+            "creditText": "Polanco, S., Blum, M., Salles, T., Frederick, B., Farrington, R., Ding, X., Mather, B., Mallard, C., & Moresi, L. (2026). Flexural isostatic response of continental-scale deltas to climatically driven sea level changes [Data set]. AuScope, National Computational Infrastructure. https://doi.org/10.25914/an8s-6g97",
+            "description": "This is a dummy submission to test every fields and how it interacts with the new M@TE 2 system",
+            "funder": [
+                {
+                    "@id": "_:b4"
+                },
+                {
+                    "@id": "_:b5"
+                }
+            ],
+            "funding": [],
+            "identifier": [
+                "https://doi.org/10.25914/an8s-6g97"
+            ],
+            "isPartOf": "http://dx.doi.org/10.25914/yrzp-g882",
+            "keywords": [
+                "FEM",
+                "Mantle convection",
+                "Badlands",
+                "Python",
+                "Underworld"
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "name": "Flexural isostatic response of continental-scale deltas to climatically driven sea level changes",
+            "publisher": [
+                {
+                    "@id": "https://ror.org/04s1m4564"
+                },
+                {
+                    "@id": "https://ror.org/04yx6dh41"
+                }
+            ],
+            "url": [
+                "https://mate.science/models/visp-mate2-oct2026/",
+                "https://github.com/ModelAtlasofTheEarth/visp-mate2-oct2026/"
+            ],
+            "version": "",
+            "hasPart": [
+                {
+                    "@id": "model_code_inputs/"
+                },
+                {
+                    "@id": "model_output_data/"
+                },
+                {
+                    "@id": "#datasetCreation"
+                },
+                {
+                    "@id": "landing_image"
+                },
+                {
+                    "@id": "graphic_abstract"
+                },
+                {
+                    "@id": "model_setup_figure"
+                }
+            ]
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "about": {
+                "@id": "./"
+            },
+            "description": "RO-Crate Metadata File Descriptor (this file)"
+        },
+        {
+            "@id": "model_code_inputs/",
+            "@type": [
+                "Dataset",
+                "SoftwareSourceCode"
+            ],
+            "contentSize": "",
+            "creator": "",
+            "description": "Code and inputs for computational model",
+            "identifier": [],
+            "keywords": "",
+            "memoryRequirements": "",
+            "processorRequirements": "",
+            "programmingLanguage": "",
+            "runtimePlatform": "",
+            "storageRequirements": "",
+            "url": [
+                "https://thredds.nci.org.au/thredds/catalog/nm08/MATE/visp-mate2-oct2026/catalog.html",
+                "https://github.com/ModelAtlasofTheEarth/polanco-2024-deltas"
+            ],
+            "version": ""
+        },
+        {
+            "@id": "model_output_data/",
+            "@type": "Dataset",
+            "contentSize": 137438953472,
+            "creator": [
+                {
+                    "@id": "https://orcid.org/0000-0002-1270-4377"
+                },
+                {
+                    "@id": "_:b6"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0001-6095-7689"
+                },
+                {
+                    "@id": "_:b7"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-2594-6965"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3693-932X"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3566-1557"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-2595-2414"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3685-174X"
+                }
+            ],
+            "fileFormat": "",
+            "description": "The model output data is stored in a hdf5 format. You will see a h5 folder and a series of xdmf files.\n\nh5 folder contains the hdf5 data, all the information computed by the model are stored in these files. You will have at least the tin (surface) and flow (stream network) dataset and also the sed (stratigraphy) data if the stratal structure is computed in your simulation.\n\ntwo .xdmf files for the surface (tin_series.xdmf) and the flow network (flow_series.xdmf) that read the xmf files through time.",
+            "identifier": [
+                "https://doi.org/10.25914/an8s-6g97"
+            ],
+            "url": "https://thredds.nci.org.au/thredds/catalog/nm08/MATE/visp-mate2-oct2026/catalog.html"
+        },
+        {
+            "@id": "#datasetCreation",
+            "@type": "CreateAction",
+            "agent": [
+                {
+                    "@id": "https://orcid.org/0000-0002-1270-4377"
+                },
+                {
+                    "@id": "_:b8"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0001-6095-7689"
+                },
+                {
+                    "@id": "_:b9"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-2594-6965"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3693-932X"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3566-1557"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-2595-2414"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3685-174X"
+                }
+            ],
+            "endTime": "",
+            "instrument": [
+                {
+                    "@id": "https://doi.org/10.5281/zenodo.1069573"
+                },
+                {
+                    "@id": "https://doi.org/10.5281/zenodo.15128361"
+                }
+            ],
+            "object": {
+                "@id": "model_code_inputs"
+            },
+            "result": {
+                "@id": "model_output_data"
+            },
+            "startTime": "",
+            "description": "Running the computational model"
+        },
+        {
+            "@id": "landing_image",
+            "@type": "ImageObject",
+            "path": "https://raw.githubusercontent.com/ModelAtlasofTheEarth/visp-mate2-oct2026/main/.website_material/graphics/landing_image.png",
+            "description": "Our simulations produce catchment areas, river lengths, and volumes of deposited sediment that are consistent with the ranges observed in continental-scale deltas such as the Mississippi and Amazon rivers. (a) Example showing the outputs from the numerical simulation showing the elevation and bathymetry (top) and cumulative flexure (bottom). Model dimensions are 4500 km x 2000 km, with a vertical exaggeration of 100x. (b) Scatter plot of river length (top) and 405 shelf width (bottom) versus catchment area from river systems. Data is from Somme et al. (2009), Nyberg et al. (2018), Blum et al. (2013, 2017) and simulations presented in this study. Pal= Paleocene, Oli=Oligocene, PM= Paleo-Mississippi. (c) Example of synthetic stratigraphy from a simulation without (left) and with flexural compensation (right).",
+            "encodingFormat": "image/png",
+            "name": "Landing page image"
+        },
+        {
+            "@id": "graphic_abstract",
+            "@type": "ImageObject",
+            "path": "https://raw.githubusercontent.com/ModelAtlasofTheEarth/visp-mate2-oct2026/main/.website_material/graphics/graphic_abstract.pdf",
+            "description": "Output of numerical simulations with imposed synthetic sea-level curves with different frequencies (f) showing elevation, bathymetry and discharge of the river mouth at 8 Myr. Note the difference in lateral extent, elevation due to flexural rebound, and river mouth morphology between the flexural (top) and non-flexural (bottom) cases. (b) Change of river mouth location though time for simulations where synthetic and empirical sea-level curves were imposed. Mean river mouth transit distances in the non-flexurally compensated simulations are shown in lighter shades, whereas the flexurally compensated cases are shown in darker shades. (c) Bar plot showing the frequency of the number of times where the de-trended river-mouth trajectory crosses an arbitrary point in the shelf an indicator of how often the river mouth is close to the shelf break. NF = non-flexural, F = flexural, IH = icehouse, and GH = greenhouse.",
+            "encodingFormat": "application/pdf",
+            "name": "Graphic abstract"
+        },
+        {
+            "@id": "model_setup_figure",
+            "@type": "ImageObject",
+            "path": "https://raw.githubusercontent.com/ModelAtlasofTheEarth/visp-mate2-oct2026/main/.website_material/graphics/model_setup_figure.png",
+            "description": "",
+            "encodingFormat": "image/png",
+            "name": "Model setup figure"
+        },
+        {
+            "@id": "_:b0",
+            "@type": "Person",
+            "familyName": "Blum",
+            "givenName": "Mike"
+        },
+        {
+            "@id": "_:b1",
+            "@type": "Person",
+            "familyName": "Frederick",
+            "givenName": "Bruce C."
+        },
+        {
+            "@id": "_:b10",
+            "@type": "Person",
+            "familyName": "Howson",
+            "givenName": "Ian"
+        },
+        {
+            "@id": "_:b11",
+            "@type": "PropertyValue",
+            "propertyID": "URL",
+            "value": "https://zenodo.org/record/1069573"
+        },
+        {
+            "@id": "_:b12",
+            "@type": "Person",
+            "familyName": "Mirko Velic"
+        },
+        {
+            "@id": "_:b13",
+            "@type": "PropertyValue",
+            "propertyID": "oai",
+            "value": "oai:zenodo.org:15128361"
+        },
+        {
+            "@id": "_:b2",
+            "@type": "Person",
+            "familyName": "Blum",
+            "givenName": "Mike"
+        },
+        {
+            "@id": "_:b3",
+            "@type": "Person",
+            "familyName": "Frederick",
+            "givenName": "Bruce C."
+        },
+        {
+            "@id": "_:b4",
+            "@type": "Organization",
+            "name": "AuScope"
+        },
+        {
+            "@id": "_:b5",
+            "@type": "Organization",
+            "name": "Sesame street"
+        },
+        {
+            "@id": "_:b6",
+            "@type": "Person",
+            "familyName": "Blum",
+            "givenName": "Mike"
+        },
+        {
+            "@id": "_:b7",
+            "@type": "Person",
+            "familyName": "Frederick",
+            "givenName": "Bruce C."
+        },
+        {
+            "@id": "_:b8",
+            "@type": "Person",
+            "familyName": "Blum",
+            "givenName": "Mike"
+        },
+        {
+            "@id": "_:b9",
+            "@type": "Person",
+            "familyName": "Frederick",
+            "givenName": "Bruce C."
+        },
+        {
+            "@id": ".metadata_trail",
+            "@type": "Dataset",
+            "hasPart": [
+                {
+                    "@id": "metadata_trail/issue_body.md"
+                },
+                {
+                    "@id": "metadata_trail/issue_dict.json"
+                },
+                {
+                    "@id": "metadata_trail/nci_iso.csv"
+                },
+                {
+                    "@id": "metadata_trail/ro-crate-metadata-nested.json"
+                }
+            ],
+            "name": ".metadata_trail"
+        },
+        {
+            "@id": ".website_material",
+            "@type": [
+                "Dataset",
+                "CreativeWork"
+            ],
+            "creator": "",
+            "fileFormat": "",
+            "description": "material for m@te website",
+            "name": ".website_material"
+        },
+        {
+            "@id": "0000-0001-5865-1664",
+            "@type": "Person",
+            "familyName": "John Mansour"
+        },
+        {
+            "@id": "0000-0001-6303-5671",
+            "@type": "Person",
+            "familyName": "Owen Kaluza"
+        },
+        {
+            "@id": "0000-0001-7779-509X",
+            "@type": "Person",
+            "familyName": "Luke Mondy"
+        },
+        {
+            "@id": "0000-0001-7919-2575",
+            "@type": "Person",
+            "familyName": "Ben Knight"
+        },
+        {
+            "@id": "0000-0001-9424-2315",
+            "@type": "Person",
+            "familyName": "Neng Lu"
+        },
+        {
+            "@id": "0000-0002-0368-7341",
+            "@type": "Person",
+            "familyName": "Steve Quenette"
+        },
+        {
+            "@id": "0000-0002-1270-4377",
+            "@type": "Person",
+            "familyName": "Sara Mor\u00f3n"
+        },
+        {
+            "@id": "0000-0002-1767-8593",
+            "@type": "Person",
+            "familyName": "Patrice Rey"
+        },
+        {
+            "@id": "0000-0002-2207-6837",
+            "@type": "Person",
+            "familyName": "Dan Sandiford"
+        },
+        {
+            "@id": "0000-0002-2594-6965",
+            "@type": "Person",
+            "familyName": "Rebecca Farrington"
+        },
+        {
+            "@id": "0000-0002-3484-7985",
+            "@type": "Person",
+            "familyName": "Arijit Laik"
+        },
+        {
+            "@id": "0000-0002-7182-1864",
+            "@type": "Person",
+            "familyName": "Adam Beall"
+        },
+        {
+            "@id": "0000-0002-9512-7252",
+            "@type": "Person",
+            "familyName": "Guillaume Duclaux"
+        },
+        {
+            "@id": "0000-0003-2595-2414",
+            "@type": "Person",
+            "familyName": "Claire Mallard"
+        },
+        {
+            "@id": "0000-0003-3685-174X",
+            "@type": "Person",
+            "familyName": "Louis Moresi"
+        },
+        {
+            "@id": "0000-0003-3891-5444",
+            "@type": "Person",
+            "familyName": "Romain Beucher"
+        },
+        {
+            "@id": "0000-0003-4515-9296",
+            "@type": "Person",
+            "familyName": "Julian Giordani"
+        },
+        {
+            "@id": "metadata_trail/issue_body.md",
+            "@type": "CreativeWork",
+            "description": "Markdown document showing the original github issue body associated with the model submission.",
+            "encodingFormat": "text/markdown",
+            "name": "Issue Body"
+        },
+        {
+            "@id": "metadata_trail/issue_dict.json",
+            "@type": "CreativeWork",
+            "description": "json file representing the dictionary that is constructured by model_submission/.github/scripts/parse_issue.py",
+            "encodingFormat": "application/json",
+            "name": "Issue Dictionary"
+        },
+        {
+            "@id": "metadata_trail/nci_iso.csv",
+            "@type": "CreativeWork",
+            "description": "Simple crosswalk of metadata into ISO 19115 format/schema compatible with NCI GeoNwtework",
+            "encodingFormat": "text/csv",
+            "name": "NCI ISO Crosswalk"
+        },
+        {
+            "@id": "metadata_trail/ro-crate-metadata-nested.json",
+            "@type": "CreativeWork",
+            "description": "Nested version of RO-Crate, hasn't been flattenened.",
+            "encodingFormat": "application/json",
+            "name": "Nested version of RO-Crate"
+        },
+        {
+            "@id": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "@type": "CreativeWork",
+            "description": "Creative Commons Attribution 4.0 International",
+            "name": "CC-BY-4.0",
+            "url": " https://creativecommons.org/licenses/by/4.0/legalcode.txt"
+        },
+        {
+            "@id": "https://doi.org/10.5194/esurf-12-301-2024",
+            "@type": "ScholarlyArticle",
+            "abstract": "Abstract. The interplay between climate-forced sea level change, erosional and depositional processes, and flexural isostasy in deep time on passive margin deltas remains poorly understood. We performed a series of conceptual simulations to investigate flexural isostatic responses to high-frequency fluctuations in water and sediment load associated with climatically driven sea level changes. We model a large drainage basin that discharges to a continental margin and produces a large deltaic depocenter, then prescribe synthetic and climatic-driven sea level curves of different frequencies to assess flexural response. Results show that flexural isostatic responses are bidirectional over 100\u20131000\u2009kyr timescales and are in sync with the magnitude, frequency, and direction of sea\u00a0level fluctuations and that isostatic adjustments play an important role in driving along-strike and cross-shelf river mouth migration and sediment accumulation. Our findings demonstrate that climate-forced sea level changes produce a feedback mechanism that results in self-sustaining creation of accommodation into which sediment is deposited and plays a major role in delta morphology and stratigraphic architecture.",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-1270-4377"
+                },
+                {
+                    "@id": "_:b2"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0001-6095-7689"
+                },
+                {
+                    "@id": "_:b3"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0002-2594-6965"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3693-932X"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3566-1557"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-2595-2414"
+                },
+                {
+                    "@id": "https://orcid.org/0000-0003-3685-174X"
+                }
+            ],
+            "name": "Flexural isostatic response of continental-scale deltas to climatically driven sea level changes"
+        },
+        {
+            "@id": "https://doi.org/10.5281/zenodo.1069573",
+            "@type": "SoftwareSourceCode",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-6095-7689"
+                },
+                {
+                    "@id": "_:b10"
+                }
+            ],
+            "identifier": {
+                "@id": "_:b11"
+            },
+            "license": "info:eu-repo/semantics/openAccess",
+            "name": "badlands-model/pyBadlands: stable release version 2.0.0",
+            "url": "https://zenodo.org/record/1069573"
+        },
+        {
+            "@id": "https://doi.org/10.5281/zenodo.15128361",
+            "@type": "SoftwareSourceCode",
+            "author": [
+                {
+                    "@id": "0000-0003-3891-5444"
+                },
+                {
+                    "@id": "0000-0003-4515-9296"
+                },
+                {
+                    "@id": "0000-0003-3685-174X"
+                },
+                {
+                    "@id": "0000-0001-5865-1664"
+                },
+                {
+                    "@id": "0000-0001-6303-5671"
+                },
+                {
+                    "@id": "_:b12"
+                },
+                {
+                    "@id": "0000-0002-2594-6965"
+                },
+                {
+                    "@id": "0000-0002-0368-7341"
+                },
+                {
+                    "@id": "0000-0002-7182-1864"
+                },
+                {
+                    "@id": "0000-0002-2207-6837"
+                },
+                {
+                    "@id": "0000-0001-7779-509X"
+                },
+                {
+                    "@id": "0000-0003-2595-2414"
+                },
+                {
+                    "@id": "0000-0002-1767-8593"
+                },
+                {
+                    "@id": "0000-0002-9512-7252"
+                },
+                {
+                    "@id": "0000-0002-3484-7985"
+                },
+                {
+                    "@id": "0000-0002-1270-4377"
+                },
+                {
+                    "@id": "0000-0002-7182-1864"
+                },
+                {
+                    "@id": "0000-0001-7919-2575"
+                },
+                {
+                    "@id": "0000-0001-9424-2315"
+                }
+            ],
+            "identifier": {
+                "@id": "_:b13"
+            },
+            "license": "https://www.gnu.org/licenses/lgpl-3.0-standalone.html",
+            "name": "Underworld2: Python Geodynamics Modelling for Desktop, HPC and Cloud",
+            "url": "https://zenodo.org/doi/10.5281/zenodo.15128361"
+        },
+        {
+            "@id": "https://linked.data.gov.au/def/anzsrc-for/2020/370401",
+            "@type": "DefinedTerm",
+            "termCode": "370401",
+            "name": "Computational modelling and simulation in earth sciences"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6095-7689",
+            "@type": "Person",
+            "familyName": "Salles",
+            "givenName": "Tristan"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1270-4377",
+            "@type": "Person",
+            "familyName": "Polanco",
+            "givenName": "Sara"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2594-6965",
+            "@type": "Person",
+            "familyName": "Farrington",
+            "givenName": "Rebecca"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2595-2414",
+            "@type": "Person",
+            "familyName": "Mallard",
+            "givenName": "Claire"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3566-1557",
+            "@type": "Person",
+            "familyName": "Mather",
+            "givenName": "Ben"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3685-174X",
+            "@type": "Person",
+            "familyName": "Moresi",
+            "givenName": "Louis"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3693-932X",
+            "@type": "Person",
+            "familyName": "Ding",
+            "givenName": "Xuesong"
+        },
+        {
+            "@id": "https://ror.org/04s1m4564",
+            "@type": "Organization",
+            "name": "AuScope"
+        },
+        {
+            "@id": "https://ror.org/04yx6dh41",
+            "@type": "Organization",
+            "name": "National Computational Infrastructure"
+        }
+    ]
+}
