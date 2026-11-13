@@ -1,0 +1,34 @@
+Field,Value
+Title*,Flexural isostatic response of continental-scale deltas to climatically driven sea level changes
+Dataset version*,
+Abstract*,"The interplay between climate-forced sea level change, erosional and depositional processes, and flexural isostasy in deep time on passive margin deltas remains poorly understood. We performed a series of conceptual simulations to investigate flexural isostatic responses to high-frequency fluctuations in water and sediment load associated with climatically driven sea level changes. We model a large drainage basin that discharges to a continental margin and produces a large deltaic depocenter, then prescribe synthetic and climatic-driven sea level curves of different frequencies to assess flexural response. Results show that flexural isostatic responses are bidirectional over 100–1000 kyr timescales and are in sync with the magnitude, frequency, and direction of sea level fluctuations and that isostatic adjustments play an important role in driving along-strike and cross-shelf river mouth migration and sediment accumulation. Our findings demonstrate that climate-forced sea level changes produce a feedback mechanism that results in self-sustaining creation of accommodation into which sediment is deposited and plays a major role in delta morphology and stratigraphic architecture."
+Topic category*,geoscientificInformation
+Field of research (FOR)*,https://linked.data.gov.au/def/anzsrc-for/2020/370401
+License*,Creative Commons Attribution 4.0 International
+Dataset lineage information*,This is a dummy submission to test every fields and how it interacts with the new M@TE 2 system
+Dataset format*,
+Dataset status,completed
+Maintenance frequency*,as needed
+Temporal extents* (if applicable),
+Spatial extents* (if applicable),
+Owner* (if applicable),
+Credit,
+Supplemental or supporting material,
+Local NCI file path,/g/data/nm08/MATE/visp-mate2-oct2026-1
+DOI (NCI Internal Field),
+Keyword/s,"FEM, Mantle convection, Badlands, Python, Underworld"
+Author 1,"Polanco, Sara, Unknown, Unknown, https://orcid.org/0000-0002-1270-4377"
+Author 2,"Blum, Mike, Unknown, Unknown, Unknown"
+Author 3,"Salles, Tristan, Unknown, Unknown, https://orcid.org/0000-0001-6095-7689"
+Author 4,"Frederick, Bruce C., Unknown, Unknown, Unknown"
+Author 5,"Farrington, Rebecca, Unknown, Unknown, https://orcid.org/0000-0002-2594-6965"
+Author 6,"Ding, Xuesong, Unknown, Unknown, https://orcid.org/0000-0003-3693-932X"
+Author 7,"Mather, Ben, Unknown, Unknown, https://orcid.org/0000-0003-3566-1557"
+Author 8,"Mallard, Claire, Unknown, Unknown, https://orcid.org/0000-0003-2595-2414"
+Author 9,"Moresi, Louis, Unknown, Unknown, https://orcid.org/0000-0003-3685-174X"
+Organisation/funding agency name,AuScope
+Funding/award description or title,No grant ID provided
+Email address for the organisation/agency (if applicable),Email not provided
+Organisation/funding agency name,Sesame street
+Funding/award description or title,No grant ID provided
+Email address for the organisation/agency (if applicable),Email not provided
